@@ -1,0 +1,9 @@
+Import('*')
+
+SimObject('GemminiDevA.py', sim_objects=['GemminiDevA'])
+
+Source('gemmini_dev_a.cc')
+
+DebugFlag('GemminiDevA', "For debugging the gemmini device A")
+DebugFlag('GemminiDevAPI', "For debugging the PI of the gemmini device A")
+DebugFlag('GemminiDevAMem', "For debugging the Mem interface of the gemmini device A")

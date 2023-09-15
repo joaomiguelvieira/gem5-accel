@@ -1,0 +1,11 @@
+status bench        | sw_time | hw_time | mem_time | speedup
+------------------------------------------------------------
+[PASS] conv2d       |  123352 |      34 |        0 |    3628.00
+[PASS] conv2d_gemm  |    7201 |      16 |     4902 |    2.46
+[PASS] conv3d       |  175327 |      17 |        0 |    10313.35
+[PASS] conv3d_gemm  |    2625 |       6 |     1631 |    2.60
+[PASS] maxpool      |    8343 |      43 |        0 |    194.02
+[PASS] maxpool_gemm |    6465 |      30 |     7896 |    1.81
+[PASS] relu         |    7985 |      34 |        0 |    234.85
+[PASS] mm           |  395367 |      16 |        0 |    24710.44
+[PASS] mm_gemm      |  409240 |      15 |     1962 |    207.99
